@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C050D386176CA5C000DBF2F8 /* DecrementDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D381176CA5C000DBF2F8 /* DecrementDisabled@2x.png */; };
+		C050D387176CA5C000DBF2F8 /* DecrementNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D382176CA5C000DBF2F8 /* DecrementNormal@2x.png */; };
+		C050D388176CA5C000DBF2F8 /* IncrementDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D383176CA5C000DBF2F8 /* IncrementDisabled@2x.png */; };
+		C050D389176CA5C000DBF2F8 /* IncrementNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D384176CA5C000DBF2F8 /* IncrementNormal@2x.png */; };
+		C050D38C176CA7B100DBF2F8 /* StepperBG@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D38B176CA7B100DBF2F8 /* StepperBG@2x.png */; };
+		C050D391176CA87000DBF2F8 /* StepperDividerLeftRightDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D38D176CA87000DBF2F8 /* StepperDividerLeftRightDisabled@2x.png */; };
+		C050D392176CA87000DBF2F8 /* StepperDividerLeftDisabledRightNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D38E176CA87000DBF2F8 /* StepperDividerLeftDisabledRightNormal@2x.png */; };
+		C050D393176CA87000DBF2F8 /* StepperDividerLeftNormalRightDisabled@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D38F176CA87000DBF2F8 /* StepperDividerLeftNormalRightDisabled@2x.png */; };
+		C050D394176CA87000DBF2F8 /* StepperDividerLeftRightNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C050D390176CA87000DBF2F8 /* StepperDividerLeftRightNormal@2x.png */; };
+		C0D774E2176B714E00A2EE4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D774E1176B714E00A2EE4E /* UIKit.framework */; };
+		C0D774E4176B714E00A2EE4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D774E3176B714E00A2EE4E /* Foundation.framework */; };
+		C0D774E6176B714E00A2EE4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D774E5176B714E00A2EE4E /* CoreGraphics.framework */; };
+		C0D774EC176B714E00A2EE4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0D774EA176B714E00A2EE4E /* InfoPlist.strings */; };
+		C0D774EE176B714E00A2EE4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D774ED176B714E00A2EE4E /* main.m */; };
+		C0D774F2176B714E00A2EE4E /* HHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D774F1176B714E00A2EE4E /* HHAppDelegate.m */; };
+		C0D774F4176B714E00A2EE4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D774F3176B714E00A2EE4E /* Default.png */; };
+		C0D774F6176B714E00A2EE4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D774F5176B714E00A2EE4E /* Default@2x.png */; };
+		C0D774F8176B714E00A2EE4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D774F7176B714E00A2EE4E /* Default-568h@2x.png */; };
+		C0D774FB176B714E00A2EE4E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D774F9176B714E00A2EE4E /* MainStoryboard_iPhone.storyboard */; };
+		C0D774FE176B714E00A2EE4E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D774FC176B714E00A2EE4E /* MainStoryboard_iPad.storyboard */; };
+		C0D77524176B73DB00A2EE4E /* HHUIDropIn.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D77523176B73DB00A2EE4E /* HHUIDropIn.m */; };
+		C0D77527176B8D3300A2EE4E /* SegmentedControlNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D77525176B8D3300A2EE4E /* SegmentedControlNormal@2x.png */; };
+		C0D77528176B8D3300A2EE4E /* SegmentedControlSelected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D77526176B8D3300A2EE4E /* SegmentedControlSelected@2x.png */; };
+		C0D7752A176B8EBA00A2EE4E /* SegmentedControlDivider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D77529176B8EBA00A2EE4E /* SegmentedControlDivider@2x.png */; };
+		C0D77531176B994E00A2EE4E /* BackIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D7752F176B994E00A2EE4E /* BackIcon.png */; };
+		C0D77534176B9E8600A2EE4E /* NavigationBar-Background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D77533176B9E8600A2EE4E /* NavigationBar-Background@2x.png */; };
+		C0D77536176BA7AA00A2EE4E /* BackIcon-Mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D77535176BA7AA00A2EE4E /* BackIcon-Mask@2x.png */; };
+		C0D77539176BA7E200A2EE4E /* UIImage+IPImageUtiles.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D77538176BA7E200A2EE4E /* UIImage+IPImageUtiles.m */; };
+		C0D7753D176BB30300A2EE4E /* TransparentImage.png in Resources */ = {isa = PBXBuildFile; fileRef = C0D7753C176BB30300A2EE4E /* TransparentImage.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C050D381176CA5C000DBF2F8 /* DecrementDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DecrementDisabled@2x.png"; sourceTree = "<group>"; };
+		C050D382176CA5C000DBF2F8 /* DecrementNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DecrementNormal@2x.png"; sourceTree = "<group>"; };
+		C050D383176CA5C000DBF2F8 /* IncrementDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IncrementDisabled@2x.png"; sourceTree = "<group>"; };
+		C050D384176CA5C000DBF2F8 /* IncrementNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IncrementNormal@2x.png"; sourceTree = "<group>"; };
+		C050D38B176CA7B100DBF2F8 /* StepperBG@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StepperBG@2x.png"; sourceTree = "<group>"; };
+		C050D38D176CA87000DBF2F8 /* StepperDividerLeftRightDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StepperDividerLeftRightDisabled@2x.png"; sourceTree = "<group>"; };
+		C050D38E176CA87000DBF2F8 /* StepperDividerLeftDisabledRightNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StepperDividerLeftDisabledRightNormal@2x.png"; sourceTree = "<group>"; };
+		C050D38F176CA87000DBF2F8 /* StepperDividerLeftNormalRightDisabled@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StepperDividerLeftNormalRightDisabled@2x.png"; sourceTree = "<group>"; };
+		C050D390176CA87000DBF2F8 /* StepperDividerLeftRightNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "StepperDividerLeftRightNormal@2x.png"; sourceTree = "<group>"; };
+		C0D774DE176B714E00A2EE4E /* iOS7 UI DropIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS7 UI DropIn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D774E1176B714E00A2EE4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C0D774E3176B714E00A2EE4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C0D774E5176B714E00A2EE4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0D774E9176B714E00A2EE4E /* iOS7 UI DropIn-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS7 UI DropIn-Info.plist"; sourceTree = "<group>"; };
+		C0D774EB176B714E00A2EE4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C0D774ED176B714E00A2EE4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C0D774EF176B714E00A2EE4E /* iOS7 UI DropIn-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOS7 UI DropIn-Prefix.pch"; sourceTree = "<group>"; };
+		C0D774F0176B714E00A2EE4E /* HHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAppDelegate.h; sourceTree = "<group>"; };
+		C0D774F1176B714E00A2EE4E /* HHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAppDelegate.m; sourceTree = "<group>"; };
+		C0D774F3176B714E00A2EE4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C0D774F5176B714E00A2EE4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C0D774F7176B714E00A2EE4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0D774FA176B714E00A2EE4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C0D774FD176B714E00A2EE4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C0D77522176B73DB00A2EE4E /* HHUIDropIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHUIDropIn.h; sourceTree = "<group>"; };
+		C0D77523176B73DB00A2EE4E /* HHUIDropIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHUIDropIn.m; sourceTree = "<group>"; };
+		C0D77525176B8D3300A2EE4E /* SegmentedControlNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlNormal@2x.png"; sourceTree = "<group>"; };
+		C0D77526176B8D3300A2EE4E /* SegmentedControlSelected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlSelected@2x.png"; sourceTree = "<group>"; };
+		C0D77529176B8EBA00A2EE4E /* SegmentedControlDivider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SegmentedControlDivider@2x.png"; sourceTree = "<group>"; };
+		C0D7752F176B994E00A2EE4E /* BackIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackIcon.png; sourceTree = "<group>"; };
+		C0D77533176B9E8600A2EE4E /* NavigationBar-Background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "NavigationBar-Background@2x.png"; sourceTree = "<group>"; };
+		C0D77535176BA7AA00A2EE4E /* BackIcon-Mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackIcon-Mask@2x.png"; sourceTree = "<group>"; };
+		C0D77537176BA7E200A2EE4E /* UIImage+IPImageUtiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+IPImageUtiles.h"; path = "../UIImage+IPImageUtiles.h"; sourceTree = "<group>"; };
+		C0D77538176BA7E200A2EE4E /* UIImage+IPImageUtiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+IPImageUtiles.m"; path = "../UIImage+IPImageUtiles.m"; sourceTree = "<group>"; };
+		C0D7753C176BB30300A2EE4E /* TransparentImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TransparentImage.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D774DB176B714E00A2EE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D774E2176B714E00A2EE4E /* UIKit.framework in Frameworks */,
+				C0D774E4176B714E00A2EE4E /* Foundation.framework in Frameworks */,
+				C0D774E6176B714E00A2EE4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C050D395176CAC8200DBF2F8 /* IPImageUtiles */ = {
+			isa = PBXGroup;
+			children = (
+				C0D77537176BA7E200A2EE4E /* UIImage+IPImageUtiles.h */,
+				C0D77538176BA7E200A2EE4E /* UIImage+IPImageUtiles.m */,
+			);
+			name = IPImageUtiles;
+			sourceTree = "<group>";
+		};
+		C0D774D5176B714E00A2EE4E = {
+			isa = PBXGroup;
+			children = (
+				C0D774E7176B714E00A2EE4E /* iOS7 UI DropIn */,
+				C0D774E0176B714E00A2EE4E /* Frameworks */,
+				C0D774DF176B714E00A2EE4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0D774DF176B714E00A2EE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0D774DE176B714E00A2EE4E /* iOS7 UI DropIn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0D774E0176B714E00A2EE4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0D774E1176B714E00A2EE4E /* UIKit.framework */,
+				C0D774E3176B714E00A2EE4E /* Foundation.framework */,
+				C0D774E5176B714E00A2EE4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D774E7176B714E00A2EE4E /* iOS7 UI DropIn */ = {
+			isa = PBXGroup;
+			children = (
+				C0D7752B176B8F6800A2EE4E /* Demo */,
+				C0D77520176B73CA00A2EE4E /* HHiOS7UIDropIn */,
+				C0D774E8176B714E00A2EE4E /* Supporting Files */,
+			);
+			path = "iOS7 UI DropIn";
+			sourceTree = "<group>";
+		};
+		C0D774E8176B714E00A2EE4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0D774E9176B714E00A2EE4E /* iOS7 UI DropIn-Info.plist */,
+				C0D774EA176B714E00A2EE4E /* InfoPlist.strings */,
+				C0D774ED176B714E00A2EE4E /* main.m */,
+				C0D774EF176B714E00A2EE4E /* iOS7 UI DropIn-Prefix.pch */,
+				C0D774F3176B714E00A2EE4E /* Default.png */,
+				C0D774F5176B714E00A2EE4E /* Default@2x.png */,
+				C0D774F7176B714E00A2EE4E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0D77512176B734100A2EE4E /* UI Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C0D7753C176BB30300A2EE4E /* TransparentImage.png */,
+				C0D7753E176BC99200A2EE4E /* Stepper */,
+				C0D7752E176B994E00A2EE4E /* NavigationBar */,
+				C0D77513176B734100A2EE4E /* SegmentedControl */,
+			);
+			name = "UI Assets";
+			path = "../UI Assets";
+			sourceTree = "<group>";
+		};
+		C0D77513176B734100A2EE4E /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				C0D77529176B8EBA00A2EE4E /* SegmentedControlDivider@2x.png */,
+				C0D77525176B8D3300A2EE4E /* SegmentedControlNormal@2x.png */,
+				C0D77526176B8D3300A2EE4E /* SegmentedControlSelected@2x.png */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		C0D77520176B73CA00A2EE4E /* HHiOS7UIDropIn */ = {
+			isa = PBXGroup;
+			children = (
+				C050D395176CAC8200DBF2F8 /* IPImageUtiles */,
+				C0D77521176B73CA00A2EE4E /* UI Elements */,
+				C0D77512176B734100A2EE4E /* UI Assets */,
+				C0D77522176B73DB00A2EE4E /* HHUIDropIn.h */,
+				C0D77523176B73DB00A2EE4E /* HHUIDropIn.m */,
+			);
+			path = HHiOS7UIDropIn;
+			sourceTree = "<group>";
+		};
+		C0D77521176B73CA00A2EE4E /* UI Elements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI Elements";
+			sourceTree = "<group>";
+		};
+		C0D7752B176B8F6800A2EE4E /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				C0D774F0176B714E00A2EE4E /* HHAppDelegate.h */,
+				C0D774F1176B714E00A2EE4E /* HHAppDelegate.m */,
+				C0D774F9176B714E00A2EE4E /* MainStoryboard_iPhone.storyboard */,
+				C0D774FC176B714E00A2EE4E /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Demo;
+			sourceTree = "<group>";
+		};
+		C0D7752E176B994E00A2EE4E /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				C0D77535176BA7AA00A2EE4E /* BackIcon-Mask@2x.png */,
+				C0D77533176B9E8600A2EE4E /* NavigationBar-Background@2x.png */,
+				C0D7752F176B994E00A2EE4E /* BackIcon.png */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		C0D7753E176BC99200A2EE4E /* Stepper */ = {
+			isa = PBXGroup;
+			children = (
+				C050D38D176CA87000DBF2F8 /* StepperDividerLeftRightDisabled@2x.png */,
+				C050D38E176CA87000DBF2F8 /* StepperDividerLeftDisabledRightNormal@2x.png */,
+				C050D38F176CA87000DBF2F8 /* StepperDividerLeftNormalRightDisabled@2x.png */,
+				C050D390176CA87000DBF2F8 /* StepperDividerLeftRightNormal@2x.png */,
+				C050D38B176CA7B100DBF2F8 /* StepperBG@2x.png */,
+				C050D381176CA5C000DBF2F8 /* DecrementDisabled@2x.png */,
+				C050D382176CA5C000DBF2F8 /* DecrementNormal@2x.png */,
+				C050D383176CA5C000DBF2F8 /* IncrementDisabled@2x.png */,
+				C050D384176CA5C000DBF2F8 /* IncrementNormal@2x.png */,
+			);
+			path = Stepper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D774DD176B714E00A2EE4E /* iOS7 UI DropIn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D7750F176B714F00A2EE4E /* Build configuration list for PBXNativeTarget "iOS7 UI DropIn" */;
+			buildPhases = (
+				C0D774DA176B714E00A2EE4E /* Sources */,
+				C0D774DB176B714E00A2EE4E /* Frameworks */,
+				C0D774DC176B714E00A2EE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS7 UI DropIn";
+			productName = "iOS7 UI DropIn";
+			productReference = C0D774DE176B714E00A2EE4E /* iOS7 UI DropIn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0D774D6176B714E00A2EE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HH;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Hannes Hauer";
+			};
+			buildConfigurationList = C0D774D9176B714E00A2EE4E /* Build configuration list for PBXProject "iOS7 UI DropIn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C0D774D5176B714E00A2EE4E;
+			productRefGroup = C0D774DF176B714E00A2EE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0D774DD176B714E00A2EE4E /* iOS7 UI DropIn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D774DC176B714E00A2EE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D774EC176B714E00A2EE4E /* InfoPlist.strings in Resources */,
+				C0D774F4176B714E00A2EE4E /* Default.png in Resources */,
+				C0D774F6176B714E00A2EE4E /* Default@2x.png in Resources */,
+				C0D774F8176B714E00A2EE4E /* Default-568h@2x.png in Resources */,
+				C0D774FB176B714E00A2EE4E /* MainStoryboard_iPhone.storyboard in Resources */,
+				C0D774FE176B714E00A2EE4E /* MainStoryboard_iPad.storyboard in Resources */,
+				C0D77527176B8D3300A2EE4E /* SegmentedControlNormal@2x.png in Resources */,
+				C0D77528176B8D3300A2EE4E /* SegmentedControlSelected@2x.png in Resources */,
+				C0D7752A176B8EBA00A2EE4E /* SegmentedControlDivider@2x.png in Resources */,
+				C0D77531176B994E00A2EE4E /* BackIcon.png in Resources */,
+				C0D77534176B9E8600A2EE4E /* NavigationBar-Background@2x.png in Resources */,
+				C0D77536176BA7AA00A2EE4E /* BackIcon-Mask@2x.png in Resources */,
+				C0D7753D176BB30300A2EE4E /* TransparentImage.png in Resources */,
+				C050D386176CA5C000DBF2F8 /* DecrementDisabled@2x.png in Resources */,
+				C050D387176CA5C000DBF2F8 /* DecrementNormal@2x.png in Resources */,
+				C050D388176CA5C000DBF2F8 /* IncrementDisabled@2x.png in Resources */,
+				C050D389176CA5C000DBF2F8 /* IncrementNormal@2x.png in Resources */,
+				C050D38C176CA7B100DBF2F8 /* StepperBG@2x.png in Resources */,
+				C050D391176CA87000DBF2F8 /* StepperDividerLeftRightDisabled@2x.png in Resources */,
+				C050D392176CA87000DBF2F8 /* StepperDividerLeftDisabledRightNormal@2x.png in Resources */,
+				C050D393176CA87000DBF2F8 /* StepperDividerLeftNormalRightDisabled@2x.png in Resources */,
+				C050D394176CA87000DBF2F8 /* StepperDividerLeftRightNormal@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D774DA176B714E00A2EE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D774EE176B714E00A2EE4E /* main.m in Sources */,
+				C0D774F2176B714E00A2EE4E /* HHAppDelegate.m in Sources */,
+				C0D77524176B73DB00A2EE4E /* HHUIDropIn.m in Sources */,
+				C0D77539176BA7E200A2EE4E /* UIImage+IPImageUtiles.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0D774EA176B714E00A2EE4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D774EB176B714E00A2EE4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C0D774F9176B714E00A2EE4E /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D774FA176B714E00A2EE4E /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		C0D774FC176B714E00A2EE4E /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0D774FD176B714E00A2EE4E /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0D7750D176B714F00A2EE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0D7750E176B714F00A2EE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D77510176B714F00A2EE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7 UI DropIn/iOS7 UI DropIn-Prefix.pch";
+				INFOPLIST_FILE = "iOS7 UI DropIn/iOS7 UI DropIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0D77511176B714F00A2EE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOS7 UI DropIn/iOS7 UI DropIn-Prefix.pch";
+				INFOPLIST_FILE = "iOS7 UI DropIn/iOS7 UI DropIn-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D774D9176B714E00A2EE4E /* Build configuration list for PBXProject "iOS7 UI DropIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D7750D176B714F00A2EE4E /* Debug */,
+				C0D7750E176B714F00A2EE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D7750F176B714F00A2EE4E /* Build configuration list for PBXNativeTarget "iOS7 UI DropIn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D77510176B714F00A2EE4E /* Debug */,
+				C0D77511176B714F00A2EE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0D774D6176B714E00A2EE4E /* Project object */;
+}
